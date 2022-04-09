@@ -61,7 +61,7 @@ You can now access the virtual machine with more ease with the command below.
  <img width="725" alt="截屏2022-04-09 13 34 52" src="https://user-images.githubusercontent.com/103294608/162590808-01c77971-1eeb-45ae-8e32-de84e1202468.png">
 
   
- Thank You!
+  Thank You!
  
 
 
