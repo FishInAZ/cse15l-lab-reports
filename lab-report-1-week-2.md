@@ -42,4 +42,26 @@ Step 4: Moving Files with _scp_
 
 **What is _scp_ ?**
 
+It is to secure copy the file from the local machine to the virtual machine using ssh. However, it requires the user to enter the password everytime when processing a file. An example of this notion is attached below.
+  
+ <img width="95" alt="截屏2022-04-09 12 57 13" src="https://user-images.githubusercontent.com/103294608/162589755-c08719fb-98d9-4567-b4d9-809eefb4ea92.png"> then a username is required to eneter at the end.
+  
+  
+Step 5: Setting an SSH Key
+ 
+ Instead of entering the password everytime, setting up an SSH Key allows the user to scp files to virtual machine without the need to enter the password.
+ The command _ssh-keygen_ is used to generate the password. By following the instructions pop up at the VSCode, a keygen will be automatically saved at the destination the user wants. Next time, a scp can be performed by using the command line below without enetering the password repeatedly.
+  **scp /Users/<user-name>/.ssh/id_rsa.pub username@ieng6.ucsd.edu:~/.ssh/authorized_keys**
+  <img width="727" alt="截屏2022-04-09 13 23 26" src="https://user-images.githubusercontent.com/103294608/162590471-df1223d2-7574-4ddc-a809-f2c6f0c98ad0.png">
+  
+  
+Step 6: Optimizing Remote Running
+  
+You can now access the virtual machine with more ease with the command below.
+ <img width="725" alt="截屏2022-04-09 13 34 52" src="https://user-images.githubusercontent.com/103294608/162590808-01c77971-1eeb-45ae-8e32-de84e1202468.png">
+
+  
+ Thank You!
+ 
+
 
