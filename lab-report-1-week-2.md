@@ -38,8 +38,8 @@ e.g
 <img width="462" alt="截屏2022-04-08 19 46 18" src="https://user-images.githubusercontent.com/103294608/162553655-c5c1e8c5-33ea-43e9-ad8a-0b91be6ec02f.png">
 
 
-Step 4: Moving Files with _ scp _
+Step 4: Moving Files with _scp_
 
-**What is _ scp _ ?**
+**What is _scp_ ?**
 
 
