@@ -40,6 +40,6 @@ e.g
 
 Step 4: Moving Files with _ scp _
 
-** What is _ scp _ ? **
+**What is _ scp _ ?**
 
 
