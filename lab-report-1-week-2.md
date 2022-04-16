@@ -58,6 +58,7 @@ It is to secure copy the file from the local machine to the virtual machine usin
 # Step 6: Optimizing Remote Running
   
 You can now access the virtual machine with more ease with the command below.
+`scp WhereAmI.java username@ieng6.ucsd.edu:~/; ssh username@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"` command allows the user to secure copy the file safely to the virtual machine with no need to enter the password repeatedly.
  <img width="725" alt="截屏2022-04-09 13 34 52" src="https://user-images.githubusercontent.com/103294608/162590808-01c77971-1eeb-45ae-8e32-de84e1202468.png">
 
   
