@@ -23,15 +23,15 @@ Upon successful login, you should be able to see the image below:
   
 There're few commands you can try on your own after logging on to the virtual machine
   
-cd ~
+`cd ~`
 
-cd
+`cd`
 
-ls -lat
+`ls -lat`
 
-ls -a
+`ls -a`
 
-ls <directory> where <directory> is
+`ls <directory>` where `<directory>` is
   
 e.g
   
