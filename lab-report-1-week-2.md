@@ -10,7 +10,7 @@ Step 2: Remotely Connecting
 
 After installing VSCode. You should be able to connect to your virtual machine through a few commands.
 
-first, you have to type in the comman "ssh <username>@ieng6.ucsd.edu"
+first, you have to type in the comman `ssh <username>@ieng6.ucsd.edu`
 
 Then, you should enter your password.
   
