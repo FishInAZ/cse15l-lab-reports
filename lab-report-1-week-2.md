@@ -51,7 +51,7 @@ It is to secure copy the file from the local machine to the virtual machine usin
  
  Instead of entering the password everytime, setting up an SSH Key allows the user to scp files to virtual machine without the need to enter the password.
  The command _ssh-keygen_ is used to generate the password. By following the instructions pop up at the VSCode, a keygen will be automatically saved at the destination the user wants. Next time, a scp can be performed by using the command line below without enetering the password repeatedly.
-  **scp /Users/<user-name>/.ssh/id_rsa.pub username@ieng6.ucsd.edu:~/.ssh/authorized_keys**
+  **`scp /Users/<user-name>/.ssh/id_rsa.pub username@ieng6.ucsd.edu:~/.ssh/authorized_keys`**
   <img width="727" alt="截屏2022-04-09 13 23 26" src="https://user-images.githubusercontent.com/103294608/162590471-df1223d2-7574-4ddc-a809-f2c6f0c98ad0.png">
   
   
