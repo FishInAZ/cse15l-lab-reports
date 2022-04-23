@@ -11,6 +11,7 @@ In order to test the prorgram, there are four different test files created.
 
 1. Test file 1 symptom
 
+
 2. Test file 2 symptom
 
 3. Test file 3 symptom
