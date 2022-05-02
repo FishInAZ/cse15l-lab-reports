@@ -9,15 +9,15 @@ These are the changes that I made to improve the program running process.
 ## Links to the failure-inducing test files
 In order to test the prorgram, there are four different test files created.
 
+
 ### **1. Test file symptom**
 
 Attached is the problem of the test-file. In this test case, there's a bug whereas the code runs into infinite loop. Originally, the test file has one empty lines at the end of the test file, which leads the program go into the infinite loop and eventually crush. This error can be simply fixed by removing the empty line. Later, when running this file, the progam returns the expected output.
 
 [Failure-inducingTestFile](https://github.com/FishInAZ/cse15l-lab-reports-2-testFiles/blob/main/test-file.md)
 
-<img width="576" alt="截屏2022-04-23 15 06 25" src="https://user-images.githubusercontent.com/103294608/164947487-9a994d74-118c-47a0-ae5a-60af61c7c780.png">
+<img width="576" alt="截屏2022-04-23 15 06 25" src="https://user-images.githubusercontent.com/103294608/164947487-9a994d74-118c-47a0-ae5a-60af61c7c780.png"> 
 
-When I try to run java MarkdownParse test-file.md in the terminal, it goes into infinit loop and never stops. This is because the extra empty line after the two links given, which causes the program will run into infinite loops while trying to detect what is in the empty line.   
 
 ### **2. Test file 3 symptom**
 
@@ -27,6 +27,7 @@ Attached is the problem of the test file 3. In this test, it is asking the progr
 
 <img width="656" alt="截屏2022-04-23 16 10 08" src="https://user-images.githubusercontent.com/103294608/164948986-e1ac83f1-86ff-4fc2-9a37-12656838587b.png">
 
+
 ### **3. Test file 4 symptom**
 
 Attached is the problem of the test file 4. In this test, it is asking the program to return an image, **which is not a link!!!**. The code supposes to not to return anything.
@@ -35,7 +36,6 @@ Attached is the problem of the test file 4. In this test, it is asking the progr
 
 <img width="1071" alt="截屏2022-04-23 16 13 08" src="https://user-images.githubusercontent.com/103294608/164949088-23be8257-ad52-48c2-8fdf-6bacea1741e1.png">
 
-This file is causing an error because it has a wrong heading, whereas the code is giving an image instead of a link startinfg with "[" and "]". Hence, the code cannot return anything in the file.
 
 ### **4. Test file 5 symptom**
 
@@ -43,11 +43,16 @@ Attached is the problem of the test file 5. In this test, I put a fake link in t
 
 [fakeLink](https://github.com/FishInAZ/cse15l-lab-reports-2-testFiles/blob/main/test-file5.md)
 
-<img width="692" alt="截屏2022-04-23 16 21 25" src="https://user-images.githubusercontent.com/103294608/164949223-61602ef4-ab06-46df-ae8a-1224820cf630.png">
-
-We can see that the bug is index out of bound. We know that if indexOf method does not find the element required, it will return -1. And we can see that in the file5 there has no parenthesis -- “(“ and “)” -- meaning there is no actual links. Therefore, the indexOf method cannot find the key element “(“, so it returns -1 to the user.  
+<img width="692" alt="截屏2022-04-23 16 21 25" src="https://user-images.githubusercontent.com/103294608/164949223-61602ef4-ab06-46df-ae8a-1224820cf630.png"> 
 
 ## What is the relationship between the bug, the symptom, and the failure-inducing input?
 
-While **bug** is a flaw in the program or the system, a **symptom** is a faulty program behavior programmers can see. Moreover, **failure-inducing input** enables bug to execute and symptoms to appear.
+While **bug** is a flaw in the program or the system, a **symptom** is a faulty program behavior programmers can see. Moreover, **failure-inducing input** enables bug to execute and symptoms to appear. 
 
+1. In the test-file.md, the failure-inducing input is the empty line after link2. The empty line triggers the bug in the code. This is because the extra line after the two links causes the program run into infinite loops while trying to detect what is in the empty line. Eventually, this bug leads to the symptom of compile error. 
+
+ 2. In the test-file3.md, the failure-inducing input is a list of links mixed with correct format starting with "[" and some incorrect format starting with "!" which is an iamge. The failure to return correct links is the bug in this code. The symptom is the wrong output which prints out nothing.
+
+ 3. In the testfile4.md, the failure-inducing input is an image link I put in there with no correct heading. The code fails to recognize the incorrect input in there. The symptom is the wrong output which returns the link I put in there. 
+
+ 4. In the testfile5.md, the failure-inducing input is the fake link I put in there. The fake link triggers the bug in the code which throws an IndexOutOfBounds Exception. The symptom is the IndexOutOfBoundsException the code runs into.
