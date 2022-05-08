@@ -50,3 +50,26 @@ I then use a serious of `git` commands to push a new file to my ieng6 account.
 This is the [link](https://github.com/FishInAZ/cse15l-lab-reports) to my commit shown above.
 
 ## 3. Copy whole directories with `scp -r`
+
+### Step 1
+
+I copy the entire directory to my ieng6 account as shown:
+
+<img width="1673" alt="截屏2022-05-07 22 34 43" src="https://user-images.githubusercontent.com/103294608/167283329-78d4d3ab-183a-4c70-a03e-f515d2d609a6.png">
+<img width="1680" alt="截屏2022-05-07 22 35 19" src="https://user-images.githubusercontent.com/103294608/167283349-9f5dbd31-1ea5-4e7b-ac13-45b64eca5647.png">
+
+**Note: I have my file name differently from the instruction, because of the names in my repo. I am just using this name to diffrentiate the files
+I edited and the file my partner and I did in class.**
+
+### Step 2
+
+After logging onto my ieng6 specific account, I ran the test for the file I uploaded.
+
+<img width="1240" alt="截屏2022-05-07 22 40 30" src="https://user-images.githubusercontent.com/103294608/167283489-844031c5-a67d-463b-a068-d572cdfd6f7e.png">
+
+### Step 3
+
+Using the shorter commands to do the same thing as above:
+
+<img width="1680" alt="截屏2022-05-07 22 43 38" src="https://user-images.githubusercontent.com/103294608/167283552-753bb284-27f1-47f4-9646-8c47028d9497.png">
+
