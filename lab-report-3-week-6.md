@@ -69,7 +69,7 @@ After logging onto my ieng6 specific account, I ran the test for the file I uplo
 
 ### Step 3
 
-Using the shorter commands to do the same thing as above:
+In order to use the shorter commands to do the same thing as above, I use the following command:
 
 <img width="1680" alt="截屏2022-05-07 22 43 38" src="https://user-images.githubusercontent.com/103294608/167283552-753bb284-27f1-47f4-9646-8c47028d9497.png">
 
