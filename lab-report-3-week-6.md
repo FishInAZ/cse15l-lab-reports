@@ -41,5 +41,12 @@ The private Key I used is located under `.ssh/id_rsa.pub`
 
 <img width="295" alt="截屏2022-05-07 22 15 20" src="https://user-images.githubusercontent.com/103294608/167282865-e4bc3590-63ed-40d0-9d35-4f5325e43679.png">
 
+### Step 3
+I then use a serious of `git` commands to push a new file to my ieng6 account.
+
+<img width="529" alt="截屏2022-05-07 22 26 05" src="https://user-images.githubusercontent.com/103294608/167283157-10304e6d-2768-49fc-8613-4aca0c5104ab.png">
+
+### Step 4
+This is the [link](https://github.com/FishInAZ/cse15l-lab-reports) to my commit shown above.
 
 ## 3. Copy whole directories with `scp -r`
