@@ -53,7 +53,7 @@ This is the [link](https://github.com/FishInAZ/cse15l-lab-reports) to my commit 
 
 ### Step 1
 
-I copy the entire directory to my ieng6 account as shown:
+By using the command `scp -r . cse15lsp22akv@ieng6.ucsd.edu:~/cse15l-lab-reports-2-testFiles`, I copy the entire directory to my ieng6 account as shown:
 
 <img width="1673" alt="截屏2022-05-07 22 34 43" src="https://user-images.githubusercontent.com/103294608/167283329-78d4d3ab-183a-4c70-a03e-f515d2d609a6.png">
 <img width="1680" alt="截屏2022-05-07 22 35 19" src="https://user-images.githubusercontent.com/103294608/167283349-9f5dbd31-1ea5-4e7b-ac13-45b64eca5647.png">
