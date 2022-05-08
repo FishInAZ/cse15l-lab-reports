@@ -18,7 +18,7 @@ I then log on to my virtual machine by using the command `ssh ieng6`
 
 <img width="482" alt="截屏2022-05-07 21 55 19" src="https://user-images.githubusercontent.com/103294608/167282424-68b5c33d-0f68-4855-baa5-0bc6febac7a4.png">
 
-In order to enter this editing page, I first enter `I`, then I exit the page by pressing the key `esc` and teh command `: wq`.
+In order to enter this editing page, I first enter `I`, then I exit the page by pressing the key `esc` and the command `: wq`.
 
 ### Step 4
 
