@@ -76,11 +76,8 @@ Then, I use the command `cd markdown-parse` to open the file I upload. With the 
 
 In order to use the shorter commands to do the same thing as above, I use the following command:
 
-`scp -r *.java *.md lib/ ieng6:markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`;
+`scp -r *.java *.md lib/ ieng6:markdown-parse; ssh ieng6 "cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`;
 
 Essentially, I just put everything I had previously in one command line, and seperate them by using `;`.
 
-<img width="1375" alt="截屏2022-05-09 13 54 06" src="https://user-images.githubusercontent.com/103294608/167496793-578a22d3-bd48-4908-8cbc-ed8b4db588dd.png">
-
-
-
+<img width="1387" alt="截屏2022-05-09 13 57 42" src="https://user-images.githubusercontent.com/103294608/167497387-e61a00c2-21fe-41f7-bd3c-b5ef5f74afd3.png">
