@@ -54,23 +54,33 @@ This is the [link](https://github.com/FishInAZ/cse15l-lab-reports) to my commit 
 
 ### Step 1
 
-By using the command `scp -r . cs15lsp22akv@ieng6.ucsd.edu:~/cse15l-lab-reports-2-testFiles`, I copy the entire directory to my ieng6 account as shown:
+By using the command `scp -r . ieng6:~/makrdown-parse`, I copy the entire directory to my ieng6 account as shown:
 
-<img width="1673" alt="截屏2022-05-07 22 34 43" src="https://user-images.githubusercontent.com/103294608/167283329-78d4d3ab-183a-4c70-a03e-f515d2d609a6.png">
-<img width="1680" alt="截屏2022-05-07 22 35 19" src="https://user-images.githubusercontent.com/103294608/167283349-9f5dbd31-1ea5-4e7b-ac13-45b64eca5647.png">
+<img width="1349" alt="截屏2022-05-09 13 41 38" src="https://user-images.githubusercontent.com/103294608/167494248-85b45dfb-c31c-447e-9e8c-089a4fc55caf.png">
 
-**Note: I have my file name differently from the instruction, because of the names in my repo. I am just using this name to diffrentiate the files
-I edited and the file my partner and I did in class.**
+<img width="1346" alt="截屏2022-05-09 13 41 59" src="https://user-images.githubusercontent.com/103294608/167494301-ea98e0cf-6837-48e1-961f-4cdaea2d4f1e.png">
 
 ### Step 2
 
-After logging onto my ieng6 specific account, I ran the test for the file I uploaded.
+After logging onto my ieng6 specific account, I use the command `ls` and find the file `markdown-parse` I just uploaded in the previous step.
 
-<img width="1240" alt="截屏2022-05-07 22 40 30" src="https://user-images.githubusercontent.com/103294608/167283489-844031c5-a67d-463b-a068-d572cdfd6f7e.png">
+<img width="881" alt="截屏2022-05-09 13 42 51" src="https://user-images.githubusercontent.com/103294608/167494438-5df714c9-7f9a-4829-9618-bb6105e30737.png">
+
+Then, I use the command `cd markdown-parse` to open the file I upload. With the two command lines `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`, I was able to run the JUnit test.
+
+<img width="1035" alt="截屏2022-05-09 13 47 02" src="https://user-images.githubusercontent.com/103294608/167495666-c67b7685-10f0-4a0c-903b-83299e9c3f36.png">
+
+<img width="1035" alt="截屏2022-05-09 13 51 32" src="https://user-images.githubusercontent.com/103294608/167496349-81a1811d-4f5c-4d25-aac0-e561b7de1696.png">
 
 ### Step 3
 
 In order to use the shorter commands to do the same thing as above, I use the following command:
 
-<img width="1680" alt="截屏2022-05-07 22 43 38" src="https://user-images.githubusercontent.com/103294608/167283552-753bb284-27f1-47f4-9646-8c47028d9497.png">
+`scp -r *.java *.md lib/ ieng6:markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`;
+
+Essentially, I just put everything I had previously in one command line, and seperate them by using `;`.
+
+<img width="1375" alt="截屏2022-05-09 13 54 06" src="https://user-images.githubusercontent.com/103294608/167496793-578a22d3-bd48-4908-8cbc-ed8b4db588dd.png">
+
+
 
