@@ -39,7 +39,8 @@ First, I created a public ssh key on my GitHub by follwoing the tutorial on [her
 
 The private Key I used is located under `.ssh/id_rsa.pub`
 
-<img width="295" alt="截屏2022-05-07 22 15 20" src="https://user-images.githubusercontent.com/103294608/167282865-e4bc3590-63ed-40d0-9d35-4f5325e43679.png">
+<img width="1032" alt="截屏2022-05-09 13 33 41" src="https://user-images.githubusercontent.com/103294608/167493068-0a914fa7-1538-4d49-85a1-a990fc989c61.png">
+
 
 ### Step 3
 I then use a serious of `git` commands to push a new file to my ieng6 account.
