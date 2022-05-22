@@ -79,3 +79,18 @@ The reviewed code has not passed the test.
 
 <img width="1268" alt="截屏2022-05-22 14 11 04" src="https://user-images.githubusercontent.com/103294608/169715993-8ecb290c-f8da-474b-9e52-4bfcf751cb4f.png">
 
+## Questions
+
+### 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+Both codes pass the test case for snippet 1 successfully. I think we don't necessarily have to change any code for snippet 1. It is working perfectly fine. Moreover, snippet 1 also has a relatively easier code to process comparing to the two other snippets.
+
+### 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+I think in order to address the problem in snippet 2. I have to add some lines of code to enable the code continue to process after it finds a closing parenthesis. Becuase in the case of snippet 2, it is a case where there's multiple closing parenthesis, but we only want the code to stop running after the last closing parenthesis is processed, whereas, now, my code stops running right after the first parenthesis,
+
+
+### 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+I can't think of a working code right now to fix the error being thrown at my snippet 3. This is because the feedback is saying that it's out of memory. Hence, I think there's more work to do to fix this kind of compiling error, instead of fixing an easy error -- the code just processed a wrong output.
+
